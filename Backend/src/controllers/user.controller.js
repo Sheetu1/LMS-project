@@ -21,3 +21,7 @@ module.exports.registerController = async function(req,res){
     })
    }
 }
+
+module.exports.loginController = async function(req,res){
+    res.send('hello world');
+}
