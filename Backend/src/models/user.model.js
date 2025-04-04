@@ -41,7 +41,7 @@ const userSchema = new mongoose.Schema({
     courses: [
         {
             type:mongoose.Schema.Types.ObjectId,
-            ref:Course,
+            ref:'Course',
         }
     ],
 
@@ -53,7 +53,7 @@ const userSchema = new mongoose.Schema({
     courseProgress: [
         {
             type:mongoose.Schema.Types.ObjectId,
-            ref:CourseProgress
+            ref:'CourseProgress'
         }
     ],
 
